@@ -1,0 +1,67 @@
+/* ===== Reset básico ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Página ===== */
+body {
+  background: #f4f4f4;
+  color: #222;
+  padding: 20px;
+}
+
+/* ===== Títulos ===== */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ===== Container genérico ===== */
+div {
+  margin-bottom: 10px;
+}
+
+/* ===== Textarea ===== */
+textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  background: white;
+}
+
+/* ===== Botão ===== */
+button {
+  margin-top: 8px;
+  padding: 8px 14px;
+  border: none;
+  background: #4c8bf5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2f6ae0;
+}
+
+/* ===== Lista ===== */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  background: white;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+}
